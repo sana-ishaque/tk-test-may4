@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: #e2e4e5;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    background-color: #eceff1;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 1px 0.5px red;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Satisfy', cursive;
+    margin-top: 0px;
+}
+
+.column {
+    float: left;
+    width: 25.33%;
+    padding: 5px;
+}
+
+.img {
+    width: 250px;
+    height: 180px;
+}
+
+#port:hover {
+    cursor: pointer;
+    color: red;
+    background-color: #eceff1;
+}
